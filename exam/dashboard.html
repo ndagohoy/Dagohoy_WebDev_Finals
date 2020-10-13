@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style data-styled="active" data-styled-version="5.1.1"></style>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="exam/js/script.js"></script>
+</head>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+
+  <body>
+    <div class="container">
+      <a class="navbar-brand" href="#">NCOV Updates</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://ndagohoy.github.io/Dagohoy_WebDev_Finals/exam/dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Updates about Covid-19</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://ndagohoy.github.io/Dagohoy_WebDev_Finals/exam/contactus.html">Contact Us</a>
+          </li>
+          <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign In</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="https://ndagohoy.github.io/Dagohoy_WebDev_Finals/exam/membershipregistration.html">Registration</a>
+              <a class="dropdown-item" href="https://ndagohoy.github.io/Dagohoy_WebDev_Finals/exam/members.html">Members Page</a>
+              <a class="dropdown-item" href="https://ndagohoy.github.io/Dagohoy_WebDev_Finals/exam/adminlogin.html">Admin Log-in</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container">
+    <h1 class="display-2 text-center">NOVEL CORONAVIRUS OUTBREAK UPDATES</h1>
+    <p class="lead text-center">All you need to know</p>
+  </div>
+  </div>
+  </div>
+</header>
+
+<!-- Page Content -->
+
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Data Table</h1>
+        <div class="sc-AxjAm sc-pIjat rFwNh">
+          <h2 class="sc-AxheI bbtMLp">
+            <div style="font-size: 25px;">
+              <div style="display: block; white-space: nowrap;">Situation by Country, Territory &amp; Area</div>
+            </div>
+          </h2>
+          <div class="sc-pQdCa jqrPXB">
+            <div role="table" class="sc-fzplgP bMCrQc" style="min-width: 369.6px;">
+              <div class="thead">
+                <div class="tr" role="row" style="display: flex; flex: 1 0 auto; min-width: 0px;">
+                  <div class="th" colspan="1" role="columnheader" title="Toggle SortBy" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px; cursor: pointer;">
+                    <div class="sc-AxjAm kbGAkV"><span>Name</span><span></span></div>
+                  </div>
+                  <div class="th" colspan="1" role="columnheader" title="Toggle SortBy" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px; cursor: pointer;">
+                    <div class="sc-AxjAm kbGAkV"><span>
+                        <div class="sc-AxjAm kbGAkV">Cases<span data-id="spacer"> - </span><span>cumulative total</span></div>
+                      </span><span><svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1">
+                          <title>Platform/C/Chevron/Down Copy</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs>
+                            <path d="M12.6432211,12.0837999 C12.2719799,12.0837999 11.9718989,11.7837189 11.9718989,11.4124777 L11.9718989,0.671322216 C11.9718989,0.300752353 12.2719799,-1.13686838e-13 12.6432211,-1.13686838e-13 C13.0144623,-1.13686838e-13 13.3145433,0.300752353 13.3145433,0.671322216 L13.3145433,11.4124777 C13.3145433,11.7837189 13.0144623,12.0837999 12.6432211,12.0837999 Z M12.6432211,12.0837999 C12.4713626,12.0837999 12.2995041,12.0180103 12.1685963,11.8871025 L9.48330742,9.20181362 C9.22082043,8.93932663 9.22082043,8.51505099 9.48330742,8.25256401 C9.7457944,7.99007702 10.17007,7.99007702 10.432557,8.25256401 L12.6432211,10.4632281 L14.8538851,8.25256401 C15.1163721,7.99007702 15.5406478,7.99007702 15.8031348,8.25256401 C16.0656217,8.51505099 16.0656217,8.93932663 15.8031348,9.20181362 L13.1178459,11.8871025 C12.9869381,12.0180103 12.8150796,12.0837999 12.6432211,12.0837999 Z M9.59238631,2.34962776 L0.477446932,2.34962776 C0.213896226,2.34962776 0,2.0488754 0,1.67830554 C0,1.30773568 0.213896226,1.00698332 0.477446932,1.00698332 L9.59238631,1.00698332 C9.85641447,1.00698332 10.0698332,1.30773568 10.0698332,1.67830554 C10.0698332,2.0488754 9.85641447,2.34962776 9.59238631,2.34962776 Z M7.51880882,6.37756105 L0.537057773,6.37756105 C0.240601882,6.37756105 0,6.0768087 0,5.70623884 C0,5.33566898 0.240601882,5.03491662 0.537057773,5.03491662 L7.51880882,5.03491662 C7.81580177,5.03491662 8.0558666,5.33566898 8.0558666,5.70623884 C8.0558666,6.0768087 7.81580177,6.37756105 7.51880882,6.37756105 Z M5.37057773,10.4054944 L0.671322216,10.4054944 C0.300752353,10.4054944 0,10.1054133 0,9.73417214 C0,9.36293095 0.300752353,9.06284992 0.671322216,9.06284992 L5.37057773,9.06284992 C5.74114759,9.06284992 6.04189995,9.36293095 6.04189995,9.73417214 C6.04189995,10.1054133 5.74114759,10.4054944 5.37057773,10.4054944 Z" id="path-1"></path>
+                          </defs>
+                          <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="_bits-/-table-/-title-row" transform="translate(-296.000000, -24.000000)">
+                              <g id="Group-4" transform="translate(240.000000, 22.000000)">
+                                <g id="Platform/C/Chevron/Down-Copy" transform="translate(56.000000, 2.000000)">
+                                  <g id="Platform/C/Chevron/Down">
+                                    <mask id="mask-2" fill="white">
+                                      <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Glyph" fill="#474747" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg></span></div>
+                  </div>
+                  <div class="th" colspan="1" role="columnheader" title="Toggle SortBy" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px; cursor: pointer;">
+                    <div class="sc-AxjAm kbGAkV"><span>
+                        <div class="sc-fzooss ivOodO">Cases<span data-id="spacer"> - </span><span>newly reported in last 24 hours</span></div>
+                      </span><span></span></div>
+                  </div>
+                  <div class="th" colspan="1" role="columnheader" title="Toggle SortBy" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px; cursor: pointer;">
+                    <div class="sc-AxjAm kbGAkV"><span>
+                        <div class="sc-fzooss ivOodO">Deaths<span data-id="spacer"> - </span><span>cumulative total</span></div>
+                      </span><span></span></div>
+                  </div>
+                  <div class="th" colspan="1" role="columnheader" title="Toggle SortBy" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px; cursor: pointer;">
+                    <div class="sc-AxjAm kbGAkV"><span>
+                        <div class="sc-fzooss ivOodO">Deaths<span data-id="spacer"> - </span><span>newly reported in last 24 hours</span></div>
+                      </span><span></span></div>
+                  </div>
+                  <div class="th" colspan="1" role="columnheader" title="Toggle SortBy" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px; cursor: pointer;">
+                    <div class="sc-AxjAm kbGAkV"><span>
+                        <div class="sc-fzooss ivOodO">Transmission Classification</div>
+                      </span><span></span></div>
+                  </div>
+                </div>
+              </div>
+              <div data-id="totals-header" class="sc-fzoMdx uYzkI">
+                <div class="tr" style="display: flex; flex: 1 0 auto; min-width: 0px;">
+                  <div class="sc-fzoWqW ifFPnx th" colspan="1" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;"><strong>Global</strong></div>
+                  <div class="sc-fzoWqW jRFzLF th" colspan="1" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">37,601,848</div>
+                  <div class="sc-fzoWqW ifFPnx th" colspan="1" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">269,377</div>
+                  <div class="sc-fzoWqW ifFPnx th" colspan="1" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">1,077,799</div>
+                  <div class="sc-fzoWqW ifFPnx th" colspan="1" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">3,805</div>
+                  <div class="sc-fzoWqW ifFPnx th" colspan="1" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;"></div>
+                </div>
+              </div>
+              <div role="rowgroup" class="tbody">
+                <div style="position: relative; height: 600px; width: 100%; overflow: visible auto; will-change: transform; direction: ltr;">
+                  <div style="height: auto; width: 100%;">
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 0px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/fr.png" alt="flag FR" width="30" height="20" data-id="country-flag"><span>France</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">707,469</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 9.20928%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">16,101</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">32,495</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">46</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 50px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/za.png" alt="flag ZA" width="30" height="20" data-id="country-flag"><span>South Africa</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">692,471</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 9.01405%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,575</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">17,780</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">107</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 100px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/gb.png" alt="flag GB" width="30" height="20" data-id="country-flag"><span>The United Kingdom</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">603,720</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 7.85876%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">12,872</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">42,825</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">65</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 150px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ir.png" alt="flag IR" width="30" height="20" data-id="country-flag"><span>Iran (Islamic Republic of)</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">504,281</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 6.56434%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">4,206</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">28,816</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">272</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 200px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/cl.png" alt="flag CL" width="30" height="20" data-id="country-flag"><span>Chile</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">482,888</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 6.28586%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,517</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">13,379</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">61</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 250px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/iq.png" alt="flag IQ" width="30" height="20" data-id="country-flag"><span>Iraq</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">405,437</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 5.27767%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">3,107</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">9,912</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">60</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 300px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/bd.png" alt="flag BD" width="30" height="20" data-id="country-flag"><span>Bangladesh</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">379,738</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.94314%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,472</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5,555</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">31</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 350px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/it.png" alt="flag IT" width="30" height="20" data-id="country-flag"><span>Italy</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">354,950</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.62046%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5,456</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">36,166</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">26</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Clusters of cases</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 400px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ph.png" alt="flag PH" width="30" height="20" data-id="country-flag"><span>Philippines</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">342,816</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.46251%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">3,475</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">6,332</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">11</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 450px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/sa.png" alt="flag SA" width="30" height="20" data-id="country-flag"><span>Saudi Arabia</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">339,615</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.42085%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">348</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5,068</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">25</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Sporadic cases</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 500px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/id.png" alt="flag ID" width="30" height="20" data-id="country-flag"><span>Indonesia</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">336,716</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.38311%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">3,267</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">11,935</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">91</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 550px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/tr.png" alt="flag TR" width="30" height="20" data-id="country-flag"><span>Turkey</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">335,533</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.36771%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,502</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">8,837</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">59</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 600px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/de.png" alt="flag DE" width="30" height="20" data-id="country-flag"><span>Germany</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">322,864</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.20279%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">9,615</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Clusters of cases</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 650px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/pk.png" alt="flag PK" width="30" height="20" data-id="country-flag"><span>Pakistan</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">319,317</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 4.15662%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">6,580</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Clusters of cases</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 700px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/il.png" alt="flag IL" width="30" height="20" data-id="country-flag"><span>Israel</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">286,109</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 3.72435%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,877</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 750px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ua.png" alt="flag UA" width="30" height="20" data-id="country-flag"><span>Ukraine</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">265,454</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 3.45547%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">4,419</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5,015</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">43</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 800px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ca.png" alt="flag CA" width="30" height="20" data-id="country-flag"><span>Canada</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">181,864</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 2.36736%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,685</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">9,613</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 850px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/nl.png" alt="flag NL" width="30" height="20" data-id="country-flag"><span>Netherlands</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">174,450</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 2.27086%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">6,368</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">6,575</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">17</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 900px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/be.png" alt="flag BE" width="30" height="20" data-id="country-flag"><span>Belgium</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">162,165</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 2.11094%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">10,191</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">7</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1000px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ro.png" alt="flag RO" width="30" height="20" data-id="country-flag"><span>Romania</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">155,283</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 2.02135%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">2,880</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">5,411</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">53</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1050px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ma.png" alt="flag MA" width="30" height="20" data-id="country-flag"><span>Morocco</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">153,761</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 2.00154%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">1,357</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">2,636</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">31</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Clusters of cases</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1100px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/ec.png" alt="flag EC" width="30" height="20" data-id="country-flag"><span>Ecuador</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">147,315</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.91763%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">487</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">12,218</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">30</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1150px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/kz.png" alt="flag KZ" width="30" height="20" data-id="country-flag"><span>Kazakhstan</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">143,632</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.86969%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">2,106</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Clusters of cases</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1200px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/bo.png" alt="flag BO" width="30" height="20" data-id="country-flag"><span>Bolivia (Plurinational State of)</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">138,574</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.80385%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">111</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">8,308</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">16</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1250px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/qa.png" alt="flag QA" width="30" height="20" data-id="country-flag"><span>Qatar</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">128,191</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.66869%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">206</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">220</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">0</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1300px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/pl.png" alt="flag PL" width="30" height="20" data-id="country-flag"><span>Poland</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">125,816</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.63778%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">4,178</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">3,004</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">32</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1350px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/pa.png" alt="flag PA" width="30" height="20" data-id="country-flag"><span>Panama</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">120,313</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.56614%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">647</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">2,491</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">9</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 1400px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/do.png" alt="flag DO" width="30" height="20" data-id="country-flag"><span>Dominican Republic</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">118,843</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.54701%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">366</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">2,179</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">6</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                    <div role="row" class="tr depth_0 " style="display: flex; flex: 1 0 auto; min-width: 0px; position: absolute; left: 0px; top: 950px; height: 50px; width: 100%;">
+                      <div class="column_name td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv"><img src="https://covid19.who.int/countryFlags/cz.png" alt="flag CZ" width="30" height="20" data-id="country-flag"><span>Czechia</span></div>
+                      </div>
+                      <div class="column_Cumulative_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzoydu gmWSNF">
+                          <div class="sc-AxjAm sc-fzoaKM gtwDuC">
+                            <div class="sc-fznzqM gMpGZl">117,110</div>
+                            <div data-id="bar" class="sc-AxjAm sc-fzqMAW hjyIiM">
+                              <div class="sc-AxjAm sc-fzoJMP bcKeBU bar_fill" style="width: 1.52445%;">
+                                <div class="sc-AxjAm sc-fznLPX hmmlZv"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column_Confirmed td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">7,736</div>
+                      </div>
+                      <div class="column_Cumulative_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">987</div>
+                      </div>
+                      <div class="column_Deaths td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-fznzqM gMpGZl">82</div>
+                      </div>
+                      <div class="column_Transmission_Classification td" role="cell" style="box-sizing: border-box; flex: 61.6 0 auto; min-width: 0px; width: 61.6px;">
+                        <div class="sc-AxjAm sc-fzokvW dvgelv">Community transmission</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-justify">From <a href="https://covid19.who.int/table">WHO Health Emergency Dashboard WHO (COVID-19) Homepage</a><br>Updated last August 20,2020, 5:00PM</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div clas"col">
+        <h1>Epidemiological curves</h1>
+        <p>These histograms are based on the available information at the time of publication, originating from several sources. Data completeness depends on the availability of information from the affected areas. All data should be interpreted with caution as the outbreak is evolving rapidly. In addition, due to the unavailability of date-of-onset data and different testing policies per country, this figure might not be reflective of the evolution of the epidemic.</p>
+        <h4>Distribution of COVID-19 cases worldwide, as of 13 October 2020</h4>
+        <img src="https://www.ecdc.europa.eu/sites/default/files/styles/is_full/public/images/novel-coronavirus-cases-worldwide-13-october-2020.png?itok=Gr2FvnAP" width="100%">
+        <small><b>Distribution of cases of COVID-19 by continent (according to the applied case definition and testing strategies in the affected countries).</b></small><br><p>Cases reported in accordance with the applied case definition and testing strategies in the affected countries.</p>
+        <h4>Distribution of COVID-19 deaths, worldwide, as of 13 October 2020</h4>
+        <img src="https://www.ecdc.europa.eu/sites/default/files/styles/is_full/public/images/novel-coronavirus-cases-worldwide-deaths-13-october-2020.png?itok=SEoJwkir" width="100%">
+        <small><b>Distribution of cases of COVID-19 deaths worldwide, by continent.</b></small><br>In the graph, no deaths are reported on 25 May in Europe due to the national retro-correction of death data in Spain. The number of deaths in Europe was less than the negative numbers reported by Spain that day.
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div clas"col">
+        <h1>Geographic distribution of COVID-19</h1>
+        <h4>Geographic distribution of 14-day cumulative number of reported COVID-19 cases per 100 000 population, worldwide, as of 13 October 2020</h4>
+        <img src="https://www.ecdc.europa.eu/sites/default/files/styles/is_full/public/images/COVID-19-geographical-distribution-world-cumulative-number-14-day-2020-10-13.png?itok=FXgBJ_ut" width="100%">
+        <p>Geographic distribution of 14-day cumulative number of reported COVID-19 cases per 100 000 population, worldwide.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <h1>Overview</h1>
+        <img src="https://github.com/ndagohoy/Dagohoy_WebDev_Finals/blob/ndagohoy/exam/assets/Screen%20Shot%202020-10-13%20at%207.02.08%20PM.png?raw=true" width="100%">
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="table-responsive field" style="border:3px solid lightblue; height:400px;">
+          <table class="table">
+            <tr>
+              <th>Region</th>
+              <th>Places Reporting Cases</th>
+              <th>Sum of Cases</th>
+              <th>Sum of Deaths</th>
+              <th>Confirmed cases in the last 14 days</th>
+            </tr>
+            <tr>
+              <td>Africa</td>
+              <td>Algeria</td>
+              <td>53225</td>
+              <td>1809</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Angola</td>
+              <td>6366</td>
+              <td>218</td>
+              <td>1569</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Benin</td>
+              <td>2411</td>
+              <td>41</td>
+              <td>71</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Botswana</td>
+              <td>4833</td>
+              <td>20</td>
+              <td>1661</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Burkina_Faso</td>
+              <td>2294</td>
+              <td>63</td>
+              <td>266</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Burundi</td>
+              <td>525</td>
+              <td>1</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Cameroon</td>
+              <td>21203</td>
+              <td>423</td>
+              <td>365</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Cape_Verde</td>
+              <td>7155</td>
+              <td>75</td>
+              <td>1338</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Central_African_Republic</td>
+              <td>4854</td>
+              <td>62</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Chad</td>
+              <td>1308</td>
+              <td>92</td>
+              <td>123</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Comoros</td>
+              <td>495</td>
+              <td>7</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Congo</td>
+              <td>5118</td>
+              <td>90</td>
+              <td>29</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Cote_dIvoire</td>
+              <td>20155</td>
+              <td>120</td>
+              <td>514</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Democratic_Republic_of_the_Congo</td>
+              <td>10868</td>
+              <td>276</td>
+              <td>244</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Djibouti</td>
+              <td>5426</td>
+              <td>61</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Egypt</td>
+              <td>104648</td>
+              <td>6062</td>
+              <td>1693</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Equatorial_Guinea</td>
+              <td>5066</td>
+              <td>83</td>
+              <td>38</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Eritrea</td>
+              <td>414</td>
+              <td>0</td>
+              <td>39</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Eswatini</td>
+              <td>5683</td>
+              <td>113</td>
+              <td>231</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Ethiopia</td>
+              <td>85136</td>
+              <td>1301</td>
+              <td>11192</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Gabon</td>
+              <td>8860</td>
+              <td>54</td>
+              <td>108</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Gambia</td>
+              <td>3636</td>
+              <td>118</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Ghana</td>
+              <td>47030</td>
+              <td>308</td>
+              <td>548</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Guinea</td>
+              <td>11062</td>
+              <td>70</td>
+              <td>464</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Guinea_Bissau</td>
+              <td>2385</td>
+              <td>40</td>
+              <td>61</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Kenya</td>
+              <td>41619</td>
+              <td>777</td>
+              <td>3451</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br></br>
+</section>
+
+<footer>
+  <p>NCOV Updates 2020.</p>
+</footer>
+
+</body>
+
+</html>
